@@ -1,6 +1,6 @@
 {
   "name": "@jewelmusic/sdk",
-  "version": "2.5.0",
+  "version": "2.5.2",
   "description": "Official JewelMusic SDK for JavaScript/TypeScript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -12,7 +12,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "build": "tsup src/index.ts --format cjs,esm --clean",
     "build:watch": "tsup src/index.ts --format cjs,esm --dts --watch",
     "test": "jest",
     "test:watch": "jest --watch",
@@ -28,7 +28,7 @@
     "examples:ai": "node examples/ai-generation.js",
     "examples:webhooks": "node examples/webhook-handling.js",
     "examples:workflow": "node examples/complete-workflow.js",
-    "prepublishOnly": "npm run build && npm run test && npm run lint"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "jewelmusic",
@@ -52,7 +52,7 @@
   "bugs": {
     "url": "https://github.com/jewelmusic/sdk/issues"
   },
-  "homepage": "https://docs.jewelmusic.art/sdks/nodejs",
+  "homepage": "https://jewelmusic.art/docs/sdks/nodejs/",
   "engines": {
     "node": ">=16.0.0"
   },

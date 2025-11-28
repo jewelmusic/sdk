@@ -2,8 +2,8 @@
 
 The official Python SDK for the JewelMusic AI-powered music distribution platform. This SDK provides comprehensive access to JewelMusic's API, including AI copilot features, music analysis, distribution management, transcription services, and analytics.
 
-[![PyPI version](https://badge.fury.io/py/jewelmusic-sdk.svg)](https://badge.fury.io/py/jewelmusic-sdk)
-[![Python](https://img.shields.io/pypi/pyversions/jewelmusic-sdk.svg)](https://pypi.org/project/jewelmusic-sdk/)
+[![PyPI version](https://badge.fury.io/py/jewelmusic.svg)](https://badge.fury.io/py/jewelmusic)
+[![Python](https://img.shields.io/pypi/pyversions/jewelmusic.svg)](https://pypi.org/project/jewelmusic/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -21,17 +21,17 @@ The official Python SDK for the JewelMusic AI-powered music distribution platfor
 
 ### pip
 ```bash
-pip install jewelmusic-sdk
+pip install jewelmusic
 ```
 
 ### Poetry
 ```bash
-poetry add jewelmusic-sdk
+poetry add jewelmusic
 ```
 
-### Conda
+### uv
 ```bash
-conda install -c conda-forge jewelmusic-sdk
+uv add jewelmusic
 ```
 
 ## Quick Start
@@ -582,13 +582,12 @@ client = JewelMusic(api_key='your_key')
 
 ## Examples
 
-See the [examples](examples/) directory for complete working examples:
+See the [examples](https://github.com/jewelmusic/sdk/tree/main/python/examples) directory for complete working examples:
 
-- [basic_usage.py](examples/basic_usage.py) - Basic SDK usage patterns
-- [ai_generation.py](examples/ai_generation.py) - AI music generation
-- [webhook_server.py](examples/webhook_server.py) - Webhook handling server
-- [batch_operations.py](examples/batch_operations.py) - Batch upload and processing
-- [async_patterns.py](examples/async_patterns.py) - Advanced async patterns
+- [basic_usage.py](https://github.com/jewelmusic/sdk/blob/main/python/examples/basic_usage.py) - Basic SDK usage patterns
+- [ai_generation.py](https://github.com/jewelmusic/sdk/blob/main/python/examples/ai_generation.py) - AI music generation
+- [webhook_server.py](https://github.com/jewelmusic/sdk/blob/main/python/examples/webhook_server.py) - Webhook handling server
+- [complete_workflow.py](https://github.com/jewelmusic/sdk/blob/main/python/examples/complete_workflow.py) - Complete end-to-end workflow
 
 ## API Reference
 
@@ -668,14 +667,14 @@ See the [examples](examples/) directory for complete working examples:
 
 ## Contributing
 
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+We welcome contributions! Please see our [GitHub repository](https://github.com/jewelmusic/sdk) for details on how to contribute.
 
 ### Development Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/jewelmusic/sdk-python.git
-cd sdk-python
+git clone https://github.com/jewelmusic/sdk.git
+cd sdk/python
 
 # Create virtual environment
 python -m venv venv
@@ -724,13 +723,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - 📧 Email: [support@jewelmusic.art](mailto:support@jewelmusic.art)
-- 💬 Discord: [JewelMusic Community](https://discord.gg/jewelmusic)
-- 📖 Documentation: [docs.jewelmusic.art](https://docs.jewelmusic.art)
-- 🐛 Issues: [GitHub Issues](https://github.com/jewelmusic/sdk-python/issues)
+- 📖 Documentation: [jewelmusic.art/docs](https://jewelmusic.art/docs/)
+- 🐛 Issues: [GitHub Issues](https://github.com/jewelmusic/sdk/issues)
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes in each version.
+See the [CHANGELOG](https://github.com/jewelmusic/sdk/blob/main/python/CHANGELOG.md) for a detailed list of changes in each version.
 
 ---
 

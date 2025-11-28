@@ -37,7 +37,7 @@ setup(
     url='https://github.com/jewelmusic/sdk',
     project_urls={
         'Homepage': 'https://jewelmusic.art',
-        'Documentation': 'https://docs.jewelmusic.art/sdk/python',
+        'Documentation': 'https://jewelmusic.art/docs/sdks/python/',
         'Source': 'https://github.com/jewelmusic/sdk/tree/main/python',
         'Tracker': 'https://github.com/jewelmusic/sdk/issues',
     },

@@ -663,14 +663,14 @@ async function generateMusic() {
 
 ## Contributing
 
-We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+We welcome contributions! Please see our [GitHub repository](https://github.com/jewelmusic/sdk) for details on how to contribute.
 
 ### Development Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/jewelmusic/sdk-javascript.git
-cd sdk-javascript
+git clone https://github.com/jewelmusic/sdk.git
+cd sdk/javascript
 
 # Install dependencies
 npm install
@@ -703,18 +703,17 @@ npm run test:coverage
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/jewelmusic/sdk/blob/main/javascript/LICENSE) file for details.
 
 ## Support
 
 - 📧 Email: [support@jewelmusic.art](mailto:support@jewelmusic.art)
-- 💬 Discord: [JewelMusic Community](https://discord.gg/jewelmusic)
-- 📖 Documentation: [docs.jewelmusic.art](https://docs.jewelmusic.art)
-- 🐛 Issues: [GitHub Issues](https://github.com/jewelmusic/sdk-javascript/issues)
+- 📖 Documentation: [jewelmusic.art/docs](https://jewelmusic.art/docs/)
+- 🐛 Issues: [GitHub Issues](https://github.com/jewelmusic/sdk/issues)
 
 ## Changelog
 
-See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes in each version.
+See the [CHANGELOG](https://github.com/jewelmusic/sdk/blob/main/javascript/CHANGELOG.md) for a detailed list of changes in each version.
 
 ---
 

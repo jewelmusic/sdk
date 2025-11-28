@@ -34,7 +34,7 @@ from .resources.analytics import AnalyticsResource
 from .resources.user import UserResource
 from .resources.webhooks import WebhooksResource
 
-__version__ = "1.0.0"
+__version__ = "1.0.2"
 __author__ = "JewelMusic Team"
 __email__ = "developers@jewelmusic.art"
 __license__ = "MIT"
