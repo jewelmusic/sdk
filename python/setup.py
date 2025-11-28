@@ -27,7 +27,7 @@ def get_version():
     return '1.0.0'
 
 setup(
-    name='jewelmusic-sdk',
+    name='jewelmusic',
     version=get_version(),
     description='Official Python SDK for the JewelMusic AI-powered music distribution platform',
     long_description=read_readme(),
